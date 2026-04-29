@@ -52,8 +52,8 @@ export default function Header() {
           <nav className="hidden md:flex space-x-8">
             <a href="#features" className="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary font-medium transition-colors">{t.header.features}</a>
             <a href="#pricing" className="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary font-medium transition-colors">{t.header.pricing}</a>
-            <a href="#integrations" className="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary font-medium transition-colors">{t.header.integrations}</a>
-            <a href="#solutions" className="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary font-medium transition-colors">{t.header.solutions}</a>
+            {/* <a href="#integrations" className="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary font-medium transition-colors">{t.header.integrations}</a> */}
+            {/* <a href="#solutions" className="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary font-medium transition-colors">{t.header.solutions}</a> */}
           </nav>
 
           {/* Desktop Actions */}

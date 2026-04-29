@@ -43,9 +43,24 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-slate-900 dark:text-white mb-4">{t.footer.company}</h4>
             <ul className="space-y-3">
-              {t.footer.companyLinks.map((link, idx) => (
-                <li key={idx}><a href="#" className="text-slate-500 dark:text-slate-400 hover:text-primary text-sm transition-colors">{link}</a></li>
-              ))}
+              {t.footer.companyLinks.map((link, idx) => {
+                const isContactSales = link === "Contact Sales";
+                const href = isContactSales 
+                  ? "https://api.whatsapp.com/send/?phone=6289613806717&text=Hai+minPos%2C+saya+tertarik+dengan+layanan+yang+ditawarkan+di+website.+Boleh+tahu+detail+paket+yang+tersedia+%3F&type=phone_number&app_absent=0"
+                  : "#";
+                return (
+                  <li key={idx}>
+                    <a 
+                      href={href} 
+                      target={isContactSales ? "_blank" : undefined}
+                      rel={isContactSales ? "noopener noreferrer" : undefined}
+                      className="text-slate-500 dark:text-slate-400 hover:text-primary text-sm transition-colors"
+                    >
+                      {link}
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
           </div>
           

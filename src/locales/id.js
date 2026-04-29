@@ -70,7 +70,7 @@ const id = {
     popular: "Paling Populer",
     plans: [
       {
-        name: "Starter",
+        name: "Basic",
         description: "Untuk usaha mikro & pemula",
         price: "Gratis",
         priceSub: "Selamanya",
@@ -85,7 +85,7 @@ const id = {
       {
         name: "Pro",
         description: "Untuk toko retail & F&B aktif",
-        price: "Rp 149k",
+        price: "Rp 229k",
         priceSub: "/ bulan",
         features: [
           "Unlimited Produk & Transaksi",
@@ -96,10 +96,10 @@ const id = {
         buttonText: "Mulai Uji Coba 14 Hari",
       },
       {
-        name: "Enterprise",
+        name: "Pro+",
         description: "Untuk bisnis dengan banyak cabang",
-        price: "Custom",
-        priceSub: "Hubungi Tim Sales",
+        price: "Rp 449k",
+        priceSub: "/ bulan",
         features: [
           "Semua Fitur Pro",
           "Manajemen Multi-Cabang",

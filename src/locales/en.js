@@ -70,7 +70,7 @@ const en = {
     popular: "Most Popular",
     plans: [
       {
-        name: "Starter",
+        name: "Basic",
         description: "For micro businesses & beginners",
         price: "Free",
         priceSub: "Forever",
@@ -85,7 +85,7 @@ const en = {
       {
         name: "Pro",
         description: "For active retail & F&B stores",
-        price: "Rp 149k",
+        price: "Rp 229k",
         priceSub: "/ month",
         features: [
           "Unlimited Products & Transactions",
@@ -96,10 +96,10 @@ const en = {
         buttonText: "Start 14-Day Trial",
       },
       {
-        name: "Enterprise",
+        name: "Pro+",
         description: "For multi-branch businesses",
-        price: "Custom",
-        priceSub: "Contact Sales Team",
+        price: "Rp 449k",
+        priceSub: "/ month",
         features: [
           "All Pro Features",
           "Multi-Branch Management",

@@ -15,9 +15,9 @@ const planMeta = [
     isPopular: true,
   },
   {
-    id: "enterprise",
+    id: "pro+",
     buttonClass: "bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-800 dark:text-white",
-    href: "#",
+    href: "https://api.whatsapp.com/send/?phone=6289613806717&text=Hai+minPos%2C+saya+tertarik+dengan+layanan+yang+ditawarkan+di+website+dengan+paket+Pro%2B.+Boleh+tahu+detail+paket+yang+tersedia+%3F&type=phone_number&app_absent=0",
     isPopular: false,
   },
 ];
@@ -80,6 +80,7 @@ export default function Pricing() {
                 <a 
                   href={meta.href}
                   className={`block text-center w-full py-3.5 rounded-xl font-semibold transition-all ${meta.buttonClass}`}
+                  target='_blank' rel='noopener noreferrer'
                 >
                   {plan.buttonText}
                 </a>
